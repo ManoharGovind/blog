@@ -1,4 +1,4 @@
 from django.db import models
-Class Job(models.Model):
-image=models.ImageField('image/')
-summary=models.CharField(max_length=200)
+class Job(models.Model):
+    image=models.ImageField(upload_to='image/')
+    summary=models.CharField(max_length=200)
