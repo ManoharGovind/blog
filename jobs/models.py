@@ -1,3 +1,4 @@
 from django.db import models
-
-# Create your models here.
+Class Job(models.Model):
+image=models.ImageField('image/')
+summary=models.CharField(max_length=200)
